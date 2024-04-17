@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17356527-b6ba-4e34-b53f-5358d20b449c" name="Changes" comment="python-core-hw1" />
+    <list default="true" id="17356527-b6ba-4e34-b53f-5358d20b449c" name="Changes" comment="python-core-hw1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e72ad00e-ad1f-49de-a1fb-ecc712b56706" />
+    <option name="defaultAccountId" value="e63e359e-42ae-455c-a9d8-510ec802f28e" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -58,7 +60,10 @@
       <workItem from="1713299687388" duration="723000" />
       <workItem from="1713300422673" duration="347000" />
       <workItem from="1713301776758" duration="109000" />
-      <workItem from="1713301897255" duration="114000" />
+      <workItem from="1713301897255" duration="200000" />
+      <workItem from="1713302107021" duration="37000" />
+      <workItem from="1713358543492" duration="701000" />
+      <workItem from="1713360128922" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="python-core-hw1">
       <option name="closed" value="true" />
@@ -76,7 +81,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713301982302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="python-core-hw1">
+      <option name="closed" value="true" />
+      <created>1713302021417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713302021417</updated>
+    </task>
+    <task id="LOCAL-00004" summary="python-core-hw1">
+      <option name="closed" value="true" />
+      <created>1713302091422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713302091422</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
