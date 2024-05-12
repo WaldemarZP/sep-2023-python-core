@@ -6,15 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="17356527-b6ba-4e34-b53f-5358d20b449c" name="Changes" comment="python-core-hw1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1-hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1-hw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WaldemarZP&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WaldemarZP/sep-2023-python-core.git&quot;,
+    &quot;accountId&quot;: &quot;a1399b88-fa97-43de-9623-a7ef19337432&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -41,8 +61,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -63,7 +83,19 @@
       <workItem from="1713358543492" duration="701000" />
       <workItem from="1713360128922" duration="34000" />
       <workItem from="1713360382296" duration="360000" />
-      <workItem from="1713360753404" duration="41000" />
+      <workItem from="1713360753404" duration="215000" />
+      <workItem from="1714499876187" duration="1133000" />
+      <workItem from="1714501132390" duration="2213000" />
+      <workItem from="1714503513229" duration="16000" />
+      <workItem from="1714503797455" duration="54000" />
+      <workItem from="1714503862691" duration="13000" />
+      <workItem from="1714670764024" duration="12000" />
+      <workItem from="1714812406085" duration="36000" />
+      <workItem from="1714813419955" duration="54000" />
+      <workItem from="1714813962988" duration="2512000" />
+      <workItem from="1715509428197" duration="194000" />
+      <workItem from="1715510042888" duration="725000" />
+      <workItem from="1715510876648" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="python-core-hw1">
       <option name="closed" value="true" />
@@ -105,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713360582771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="python-core-hw1">
+      <option name="closed" value="true" />
+      <created>1713360833690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713360833690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

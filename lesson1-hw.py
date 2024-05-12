@@ -7,7 +7,15 @@
 
 # st = 'as 23 fdfdg544'
 #
-# print((', '.join(ch for ch in st if ch.isdigit())))
+# res = []
+#
+# for i in st:
+#     if i.isdigit():
+#         res.append(i)
+#
+# print(res)
+
+# print(','.join(i for i in st if i.isdigit()))
 
 #################################################################################
 # 2)написати прогу яка вибирає зі введеної строки числа і виводить їх
@@ -17,21 +25,23 @@
 # 23, 544, 34              #вивело в консолі
 
 # st = 'as 23 fdfdg544 34'
-# num = []
+
+# res = []
 # x = ''
+#
 # for i in st:
 #     if i.isdigit():
 #         x += i
-#     else:
-#         if x.isdigit():
-#             num.append(int(x))
-#             x = ''
+#     elif x.isdigit():
+#         res.append(x)
+#         x = ''
+# else:
+#     if x.isdigit():
+#         res.append(x)
 #
-# if x != '':
-#     num.append(int(x))
-# print(num)
+# print(res)
 
-# print(', '.join(''.join(ch if ch.isdigit() else ' ' for ch in st).split()))
+# print(', '.join(''.join(i if i.isdigit() else ' ' for i in st).split()))
 
 #################################################################################
 
@@ -43,18 +53,30 @@
 # ['H', 'E', 'L', 'L', 'O', ',', ' ', 'W', 'O', 'R', 'L', 'D']
 
 # greeting = 'Hello, world'
+
+# res = []
 #
-# print(list(greeting.upper()))
-# print([ch.upper() for ch in greeting])
+# for letter in greeting:
+#     res.append(letter.upper())
+#
+# print(res)
+
+# print([i.upper() for i in greeting])
 
 #
 # 2) з диапозону від 0-50 записати тільки не парні числа при цьому піднести їх до квадрату
 # приклад:
 # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, ...]
 
-# l = [i**2 for i in range(50) if i % 2 != 0]
+# res = []
 #
-# print(l)
+# for i in range(50):
+#     if i % 2 == 1:
+#         res.append(i ** 2)
+#
+# print(res)
+
+# print([i ** 2 for i in range(50) if i % 2 == 1])
 
 #################################################################################
 
@@ -62,10 +84,9 @@
 #
 # - створити функцію яка виводить ліст
 
-# def show_list(l):
+# def create_list(l):
 #     for i in l:
 #         print(i)
-
 
 # - створити функцію яка приймає три числа та виводить та повертає найбільше.
 
@@ -73,14 +94,14 @@
 #     max_num = max(a, b, c)
 #     print(max_num)
 #     return max_num
-#
-# max_of_three(1, 2, 3)
 
 # - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше, а виводить найбільше
 
 # def min_max(*args):
-#     print(max(args))
-#     return min(args)
+#     min_num = min(args)
+#     max_num = max(args)
+#     print(max_num)
+#     return min_num
 
 # - створити функцію яка повертає найбільше число з ліста
 
@@ -93,7 +114,7 @@
 # def max_of_list(l):
 #     return max(l)
 #
-# x = max_of_list([1,2,3,4,5,6,7,8,9])
+# x = max_of_list([1,2,3,4])
 # print(x)
 
 # - створити функцію яка повертає найменьше число з ліста
@@ -150,60 +171,71 @@
 # 3) вывести табличку множення за допомогою цикла while
 # 4) переробити це завдання під меню
 
-# list1 = [22, 3, 5, 2, 8, 2, -23, 8, 23, 5]
+list1 = [22, 3, 5, 2, 8, 2, -23, 8, 23, 5]
 
-def find_min_from_list():
-    print(min(list1))
-
-
-def remove_duplicates():
-    print(list(set(list1)))
+# def find_min_from_list():
+#     print(min(list1))
 
 
-def to_x():
-    print(['X' if not (i + 1) % 4 else item for i, item in enumerate(list1)])
-
-def square(n):
-    for i in range(n):
-        if i == 0 or i == n - 1:
-            print('*' * n)
-        else:
-            print('*' + ' ' * (n - 2) + '*')
-
-def multi_table():
-    size = 9
-    i = 1
-    while i <= size:
-        j = 1
-        while j <= size:
-            res = i * j
-            # print('  ' if res//10 else '   ', end='')
-            # print(res, end='')
-            print(f'{res:4}', end='')
-            j += 1
-        i += 1
-        print()
+# def remove_duplicates():
+#     print(list(set(list1)))
 
 
-while True:
-    print('1) Find min from list')
-    print('2) Remove duplicates')
-    print('3) All 4th number to X')
-    print('4) Square table')
-    print('5) Multi table')
-    print('6) Exit')
+# def to_x():
+#     res = []
+#     for i, v in enumerate(list1):
+#         if not (i + 1) % 4:
+#             v = 'X'
+#             res.append(v)
+#         else:
+#             res.append(v)
+#     print(res)
+#
+# to_x()
 
-    choice = input('Enter your choice: ')
+# print(['X' if not (i + 1) % 4 else item for i, item in enumerate(list1)])
 
-    if choice == '1':
-        find_min_from_list()
-    elif choice == '2':
-        remove_duplicates()
-    elif choice == '3':
-        to_x()
-    elif choice == '4':
-        square(4)
-    elif choice == '5':
-        multi_table()
-    elif choice == '6':
-        break
+# def square(n):
+#     for i in range(n):
+#         if i == 0 or i == n - 1:
+#             print('*' * n)
+#         else:
+#             print('*' + ' ' * (n - 2) + '*')
+
+# def multi_table():
+#     size = 9
+#     i = 1
+#     while i <= size:
+#         j = 1
+#         while j <= size:
+#             res = i * j
+#             # print('  ' if res//10 else '   ', end='')
+#             # print(res, end='')
+#             print(f'{res:4}', end='')
+#             j += 1
+#         i += 1
+#         print()
+
+
+# while True:
+#     print('1) Find min from list')
+#     print('2) Remove duplicates')
+#     print('3) All 4th number to X')
+#     print('4) Square table')
+#     print('5) Multi table')
+#     print('6) Exit')
+#
+#     choice = input('Enter your choice: ')
+#
+#     if choice == '1':
+#         find_min_from_list()
+#     elif choice == '2':
+#         remove_duplicates()
+#     elif choice == '3':
+#         to_x()
+#     elif choice == '4':
+#         square(4)
+#     elif choice == '5':
+#         multi_table()
+#     elif choice == '6':
+#         break
