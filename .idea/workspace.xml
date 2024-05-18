@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17356527-b6ba-4e34-b53f-5358d20b449c" name="Changes" comment="python-core-hw1">
+    <list default="true" id="17356527-b6ba-4e34-b53f-5358d20b449c" name="Changes" comment="python-core-hw1-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1-hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1-hw.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1714813962988" duration="2512000" />
       <workItem from="1715509428197" duration="194000" />
       <workItem from="1715510042888" duration="725000" />
-      <workItem from="1715510876648" duration="2900000" />
+      <workItem from="1715510876648" duration="3486000" />
     </task>
     <task id="LOCAL-00001" summary="python-core-hw1">
       <option name="closed" value="true" />
@@ -145,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713360833690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="python-core-hw1-1">
+      <option name="closed" value="true" />
+      <created>1715538344081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715538344081</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python-core-hw1" />
-    <option name="LAST_COMMIT_MESSAGE" value="python-core-hw1" />
+    <MESSAGE value="python-core-hw1-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="python-core-hw1-1" />
   </component>
 </project>
